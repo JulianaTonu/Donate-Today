@@ -28,7 +28,7 @@
     z-index: -1;
 }
 .banner h1{
-
+font-size: 50px;
 text-align: center;
 padding-top: 10%;
 color: #fff;
@@ -45,11 +45,18 @@ color: #fff;
     position: absolute;
    
     background-color: crimson;
-    top: 66%;
+    top: 82%;
     left: 44%;
     padding: 15px 20px;
     margin:10px 10px;
     border-radius: 10px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid crimson;
+    /* color: rgb(245, 241, 241; */
+
+    
 }
 
 .btn a{
@@ -57,8 +64,10 @@ color: #fff;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+    
 
 }
+
 
 /* 2nd section// */
 .Donate-today h2{
@@ -115,9 +124,12 @@ font-size: 40px;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 1%;
-    color:rgb(99, 96, 96)
+    color:rgb(206, 204, 204)
 }
-
+hr{
+    width: 56%;
+    margin-left: 22%;
+}
 .btn2{
     
     position: absolute;
@@ -128,13 +140,24 @@ font-size: 40px;
     margin:10px 10px;
     border-radius: 10px;
 }
+.btn2:hover{
+    background-color: transparent;
+    border: 2px solid crimson;
+    
 
+    
+}
 .btn2 a{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+    
 
+}
+.btn2 a:hover{
+    background-color: #fff;
+    color: crimson;
 }
 
 /* 3rd session// */
@@ -149,3 +172,29 @@ font-size: 40px;
     text-align: center;
     padding: 10px;
 }
+.plan{
+    text-align: center;
+    width: 250px;
+    height: 220px;
+    background-color: rgb(184, 236, 236);
+    padding: 20px 20px;
+    padding-top: 5%;
+    border-radius: 10px;
+}
+
+.food-plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.plan{
+    margin: 20px 20px;
+}
+#p1{
+background: rgb(231, 249, 195);
+}
+#p2{
+background: rgb(195, 249, 226);
+}
+
