@@ -285,7 +285,8 @@ p{
     /* padding: 10px 116px; */
     margin: 0px;
     background-color: rgb(213, 210, 210);
-    border-radius: 1px ;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
    
     padding: 10px;
     padding-left: 10px;
@@ -306,7 +307,8 @@ p{
     padding: 10px 28px;
     margin: 0px;
     background-color: red;
-    border-radius: 3px ;
+    border-top-right-radius: 5px ;    
+    border-bottom-right-radius: 5px;
 }
 .sub a{
     text-decoration: none;
